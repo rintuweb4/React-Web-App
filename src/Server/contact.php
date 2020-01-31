@@ -12,7 +12,7 @@ $_POST = json_decode($rest_json, true);
 
 $from = 'Contact Us Form <danieldsoza10@gmail.com>';
 $sendTo = 'Contact Us Form <danieldsoza10@gmail.com>';
-$subject = 'New message from React App';
+$subject = 'New message from React Web App';
 $fields = array('name' => 'Name', 'email' => 'Email','message' => 'Message');
 $okMessage = 'Contact form successfully submitted. Thank you, We will get back to you soon!';
 

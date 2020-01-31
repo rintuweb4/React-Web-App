@@ -39,7 +39,7 @@ export default function Menubar() {
 
   return (
     <>
-      <Router>
+      <Router basename="React-Web-App">
         <Row className="no-gutters fixed-top" ref={navbarScroll}>
           <Container>
             <Row>
